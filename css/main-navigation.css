@@ -5,6 +5,7 @@
     padding: 20px;
     width: 100%;
     background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
 }
 
 .main-navigation-inner {
