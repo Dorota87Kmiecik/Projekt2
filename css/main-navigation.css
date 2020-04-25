@@ -80,6 +80,7 @@
 .main-navigation__menu-item {
     margin-left: 40px;
     padding: 5px 0;
+    border-bottom: 2px solid transparent;
 }
 
 @media (max-width: 1199px) {
@@ -91,11 +92,13 @@
 @media (max-width: 991px) {
     .main-navigation__menu-item {
         margin-left: 0px;
+
     }
 }
 
 .main-navigation__menu-item:hover {
     border-bottom: 2px solid white;
+
 }
 
 @media (max-width: 991px) {
