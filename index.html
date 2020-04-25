@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/css/bookmark.css">
     <link rel="stylesheet" href="/css/menu.css">
     <link rel="stylesheet" href="/css/gallery.css">
+    <link rel="stylesheet" href="/css/contact-form.css">
 
 
 
@@ -404,6 +405,34 @@
         <h2 class="bookmark__header">Kontakt</h2>
         <p class="bookmark__description">Napisz do nas lub zarezerwuj stolik</p>
     </section>
+    <form class="contact-form">
+        <div class="container container--smaller">
+            <div class="contact-form__info">
+                <div class="contact-form__info-item">
+                    <img src="/images/icons/envelope.svg" alt="Email" class="contact-form__info-icon">
+                    <a href="mailto:kontakt@restauracja.pl" class="contact-form__info-link">kontakt@restauracja.pl</a>
+                </div>
+                <div class="contact-form__info-item">
+                    <img src="/images/icons/phone.svg" alt="Phone" class="contact-form__info-icon">
+                    <a href="tel:684532250" class="contact-form__info-link">68 453 2250</a>
+                </div>
+            </div>
+            <p class="contact-form__header">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Repellat aperiam, nihil eos quasi
+                reprehenderit
+                <br>
+                enim nesciunt itaque sit fugit sunt provident maxime repellendus cupiditate illo maiores eaque rem
+                perferendis iure.
+            </p>
+            <div class="contact-form__fields">
+                <input name="name" class="contact-form__field" required placeholder="Imię i Nazwisko">
+                <input name="email" type="email" class="contact-form__field" required placeholder="Adres e-mail">
+                <textarea name="content" placeholder="Treść wiadomości" required rows="10"
+                    class="contact-form__field contact-form__field--full-row "></textarea>
+            </div>
+            <button class="contact-form__submit-button">Wyślij</button>
+        </div>
+    </form>
     <section class="bookmark bookmark--route" id="route">
         <h2 class="bookmark__header">Jak dojechać</h2>
         <p class="bookmark__description">Łatwo nas znajdziesz</p>

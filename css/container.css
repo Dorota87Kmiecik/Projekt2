@@ -4,3 +4,7 @@
     max-width: 100%;
     padding: 40px;
 }
+
+.container--smaller {
+    width: 991px;
+}
